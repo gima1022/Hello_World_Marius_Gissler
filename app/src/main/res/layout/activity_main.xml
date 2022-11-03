@@ -47,8 +47,8 @@
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kontaktieren">
-    </androidx.appcompat.widget.AppCompatButton>
+        android:backgroundTint="#A55757"
+        android:text="Kontaktieren"></androidx.appcompat.widget.AppCompatButton>
 
     <EditText
         android:id="@+id/edtMessage"
@@ -57,6 +57,8 @@
         android:hint="Nachricht eingeben"
         android:lines="4" >
     </EditText>
+
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSendMessage"
@@ -68,8 +70,57 @@
     <TextView
         android:id="@+id/txtMessage"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-<!--UEBUNG 1-->
+        android:layout_height="wrap_content"
+        android:lines="4" />
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/edtUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL eingeben"
+        android:lines="4" >
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A55757"
+        android:text="btnopenURL"
+        android:onClick="openUrl"
+        ></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnopen2nd_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A55757"
+        android:text="btnopen2nd_activity"
+        android:onClick="onCreate"
+        ></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnopen_departure_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A55757"
+        android:text="btnopen_departure_activity"
+        android:onClick="onCreate"
+        ></androidx.appcompat.widget.AppCompatButton>
+
+
+    <!--  <EditText
+         android:id="@+id/edt2Message"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Nachricht eingeben"
+         android:lines="4" >
+     </EditText>
+ UEBUNG 1-->
 <!--    <TextView
                android:id="@+id/textView"
                android:layout_width="295dp"
