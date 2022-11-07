@@ -14,4 +14,15 @@ public class Departure {
     public void setServingLine(ServingLine servingLine) {
         this.servingLine = servingLine;
     }
+    @SerializedName("dateTime")
+    private DateTime dateTime;
+
+    public DateTime getDateTime() {
+        return dateTime;
+    }
+
+    public void setDateTime(DateTime dateTime) {
+        this.dateTime = dateTime;
+    }
+
 }

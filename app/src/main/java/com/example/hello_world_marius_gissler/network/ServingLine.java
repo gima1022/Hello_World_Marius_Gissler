@@ -10,6 +10,17 @@ public class ServingLine {
     @SerializedName("name")
     private String name;
 
+    @SerializedName("direction")
+    private String direction;
+
+    public String getDirection() {
+        return direction;
+    }
+
+    public void setDirection(String destination) {
+        this.direction = destination;
+    }
+
     public String getNumber() {
         return number;
     }
